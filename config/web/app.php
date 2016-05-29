@@ -151,9 +151,9 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
+        App\Providers\Web\AppServiceProvider::class,
+        App\Providers\Web\AuthServiceProvider::class,
+        App\Providers\Web\EventServiceProvider::class,
         App\Providers\Web\RouteServiceProvider::class,
 
     ],
